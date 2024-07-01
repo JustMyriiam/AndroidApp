@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "855106674718",
+    "firebase_url": "https://miniprojet-2fe1c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "miniprojet-2fe1c",
+    "storage_bucket": "miniprojet-2fe1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855106674718:android:b81bff9a497823aa050e0f",
+        "android_client_info": {
+          "package_name": "com.example.miniprojet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO5gnWJ1NxytgJyhSMIGrXUKgCcOa4Exo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855106674718:android:e36b3e6812fd3845050e0f",
+        "android_client_info": {
+          "package_name": "com.example.myrecyclerview"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO5gnWJ1NxytgJyhSMIGrXUKgCcOa4Exo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

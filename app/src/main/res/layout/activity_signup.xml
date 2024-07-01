@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Titre -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="New here?"
+        android:textColor="@color/secondary_color"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+    <!-- Second titre -->
+    <TextView
+        android:id="@+id/secondTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="8dp"
+        android:text="Join us for free by signing up."
+        android:textColor="@color/primary_color"
+        android:textSize="22sp"
+        android:gravity="center" />
+
+    <!-- Image de connexion -->
+    <ImageView
+        android:id="@+id/loginImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/secondTitleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:contentDescription="Login Image"
+        android:src="@drawable/logi" />
+
+    <!-- Champ d'adresse e-mail -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginImageView"
+        android:layout_marginTop="38dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="12dp"
+        android:hint="Email"
+        android:background="@drawable/edit_text_border" />
+
+    <!-- Champ de mot de passe -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEditText"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:padding="12dp"
+        android:hint="Password"
+        android:background="@drawable/edit_text_border" />
+
+    <!-- Bouton de connexion -->
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="Sign Up"
+        android:textSize="19dp"
+        android:backgroundTint="@color/primary_color"
+        android:textColor="#FFFFFF"/>
+
+
+</RelativeLayout>

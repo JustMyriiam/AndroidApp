@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetPasswdActivity">
+
+    <TextView
+        android:id="@+id/textViewResetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Forgotten Your Password?"
+        android:textColor="@color/secondary_color"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewResetPassword"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Enter your email"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_border"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/buttonResetPassword"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextEmail"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/primary_color"
+        android:text="Reset Password" />
+
+</RelativeLayout>

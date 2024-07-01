@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/secondary_color"
+        android:textStyle="bold"
+        android:text="Add Product"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textViewInputLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please enter the product name\nand price and select an image."
+        android:textColor="@color/primary_color"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:hint="Product Name"
+        android:width="50dp"
+        android:gravity="center"
+        android:height="20dp"
+        android:background="@drawable/edit_text_border"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:hint="Product Price"
+        android:width="50dp"
+        android:gravity="center"
+        android:height="20dp"
+        android:background="@drawable/edit_text_border"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSelectImage"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Select Image"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:backgroundTint="@color/primary_color"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/edit_text_border"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAddProduct"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/primary_color"
+        android:text="Add Product"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/secondary_color"
+        android:onClick="cancelBtn"
+        android:text="Cancel"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
